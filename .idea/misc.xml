@@ -7,11 +7,22 @@
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/background_smart_power_saver_layout.xml" value="0.262" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/background_storage_optimization_layout.xml" value="0.262" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/gradien.xml" value="0.2055" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/ic_battery_saver.xml" value="0.1515" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/ic_carging_low_battery_svgrepo_com.xml" value="0.1515" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/ic_cpu_svgrepo_com.xml" value="0.1515" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/ic_cpu_svgrepo_com__1_.xml" value="0.1515" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/ic_shield_svgrepo_com.xml" value="0.227" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/ic_shield_svgrepo_com__1_.xml" value="0.227" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/drawable/ic_shield_svgrepo_com__2_.xml" value="0.1515" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/battery_saver.xml" value="0.1" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/cpu_cooler.xml" value="0.28125" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/fragment_setting_layout.xml" value="0.371875" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/fragment_test_booster_layout.xml" value="0.371875" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/fragment_toolkit_layout.xml" value="0.371875" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/item_home_layout.xml" value="0.371875" />
+        <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/scan_virus.xml" value="0.25" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/screen_clear_cache_apk_layout.xml" value="0.37083333333333335" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/sub_smart_acceleration_layout.xml" value="0.5" />
         <entry key="..\:/FromSSToHome/UIBoosterApp/MyLauncher/app/src/main/res/layout/sub_smart_power_saver_layout.xml" value="0.33" />

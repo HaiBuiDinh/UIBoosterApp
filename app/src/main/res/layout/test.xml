@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/scanning">
+        app:lottie_rawRes="@raw/clean_main_pulse">
     </com.airbnb.lottie.LottieAnimationView>
 
     <TextView
@@ -98,6 +98,7 @@
             android:paddingHorizontal="16dp">
 
             <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_phone_boost"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
@@ -136,6 +137,7 @@
             </androidx.appcompat.widget.LinearLayoutCompat>
 
             <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_scan_virus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -182,6 +184,7 @@
             android:paddingHorizontal="16dp">
 
             <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_cpu_cooler"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
@@ -220,6 +223,7 @@
             </androidx.appcompat.widget.LinearLayoutCompat>
 
             <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_battery_saver"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"

@@ -12,20 +12,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar?.hide()
-        loadFragment(TestBoosterFragment())
+        loadFragment(TestBoosterFragment(), -1)
 
         bottomNavigationView.setOnNavigationItemSelectedListener {
             when(it.itemId){
-                R.id.home->loadFragment(TestBoosterFragment())
-                R.id.toolkit->loadFragment(TestToolkitFragment())
-                R.id.settings->loadFragment(TestSettingFragment())
+                R.id.home->loadFragment(TestBoosterFragment(), -1)
+                R.id.toolkit->loadFragment(TestToolkitFragment(), -1)
+                R.id.settings->loadFragment(TestSettingFragment(), -1)
             }
             true
         }
 
     }
 
-    private fun loadFragment(fragment: Fragment) {
+    private fun loadFragment(fragment: Fragment, int: Int) {
+        val bundle = Bundle()
+        bundle.putInt("type_func", int);
+        fragment.arguments = bundle
         fragment?.let {
             supportFragmentManager.beginTransaction().replace(R.id.container, fragment).commit()
         }
@@ -33,6 +36,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
-        loadFragment(TestBoosterFragment())
+        loadFragment(TestBoosterFragment(), -1)
     }
 }
